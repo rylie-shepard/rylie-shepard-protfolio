@@ -1,0 +1,9 @@
+1- As a User, I want to have a functioning navigation bar that takes me to relevant pages.
+	Success- Links to my projects, blog page, and a return button to navigate to the index.html page.
+	Failure- Links that don't navigate to the correct pages or don't link back to the currently shown page.
+2- As a User, I want a way to submit contact information to the host with a message.
+	Success- Information is successfully submitted through a separate contact page.
+	Failure- Error messages displayed when improper format is used for email and no text is submitted for the name.
+3- As a User, I want an easy way to display images that can be shown without taking up too much space.
+	Success- Show a slide of images on a carousel using bootstrap.
+	Failure- Images don't switch using the carousel buttons.
