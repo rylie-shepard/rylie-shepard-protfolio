@@ -125,6 +125,22 @@ ul {
     color: #000000;
 }
 
+.custom-carousel-img {
+    height: 500px;
+    object-fit: contain;
+}
+
+@media (max-width 700px) {
+    .custom-carousel-img {
+        height: 300px;
+    }
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 10rem;
+    height: 10rem;
+}
+
 footer {
     height: 40px;
     display: flex;
