@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border-style: solid */
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: #ffbad1;
+    color: rgb(27, 27, 27);
+    font-family: 'Ancizar', Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Arimo', Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+    padding: 10px;
+    width: 500;
+    border: 5px solid rgb(32, 83, 32);
+    margin: 20px;
+}
+
+p {
+    padding: 10px;
+}
+
+.highlighted {
+    background-color: whitesmoke;
+    border: 3px outset rgb(63, 131, 63);
+}
+
+.profile {
+    background-color: #ffbad1;
+    color: rgb(30, 30, 30);
+}
+
+.profile-description {
+    background-color: #ffbad1;
+    color: rgb(0, 0, 0);
+}
+
+.introduction {
+    text-align: center;
+    color: rgb(30, 30, 30);
+}
+
+.header-nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu-item {
+    margin-right: 40px;
+}
+
+.profile-image {
+    height: 400px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 50px;
+}
+
+.bg-light {
+    color: #ffbad1;
+    background-color: url(../images/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-dark {
+    color: #ffbad1;
+}
+
+.logo {
+    color: rgb(32, 83, 32);
+    text-decoration: none;
+}
+
+ul, ol {
+    padding-left: 25px;
+}
+
+ul {
+     list-style-type: square;
+}
+
+[type=text], [type=email] {
+    padding: 7px;
+}
+
+.multi-column-container {
+    display: flex;
+}
+
+.column-item {
+    width: calc(100% / 3);
+    margin: 5px;
+    border: 5px double rgb(32, 83, 32);
+    border-radius: 25px;
+}
+
+.row-item {
+    margin: 5px;
+    border: 5px double rgb(32, 83, 32);
+    border-radius: 25px;
+}
+
+.carousel-text-p {
+    color: #000000;
+}
+
+footer {
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+    margin-right: 20px;
+}
