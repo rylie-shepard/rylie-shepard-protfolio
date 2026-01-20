@@ -1,0 +1,9 @@
+1- As a User, I want to be able to search for queries via a search bar.
+	Success- Relevant information/gifs are shown as a result of the search.
+	Failure- Information/gifs are not displayed after submitting a request.
+2- As a User, I want to be shown a page that cleanly fits the device I am using to access the content.
+	Success- Displays for desktop and mobile users makes sense for the device being used.
+	Failure- The display for either desktop or mobile users doesn't make sense for the device used.
+3- As a User, I want to see images or gifs I am searching for displayed in a way that allows each to be displayed standalone, but not by a new window.
+	Success- Displayed results are shown in a single column, stacking vertically.
+	Failure- Images don't stack vertically when displayed on the site.
