@@ -28,10 +28,10 @@
     </header>
 
     <h2>Giphy API Project</h2>
-    <form class="d-flex gap-2">
-        <input class="giphy-search-box form-control" type="search" name="search" id="query" placeholder="Look for GIFs">
-        <button class="giphy-search-button btn" onclick="searchGifs()" id="searchBtn">Search</button>
-    </form>
+    <section class="d-flex">
+        <input class="giphy-search-box" type="search" name="search" id="query" placeholder="Look for GIFs">
+        <button class="giphy-search-button" type="submit" onclick="searchGifs()" id="searchBtn">Search</button>
+    </section>
     <section class="giphy-body js-giphy" id="results"></section>
 
     <script src="./javascript/giphy.js"></script>

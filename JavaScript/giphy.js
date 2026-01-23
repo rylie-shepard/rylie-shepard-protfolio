@@ -25,4 +25,9 @@ async function searchGifs() {
     });
 }
 
-document.getElementById('searchBtn').addEventListener('click', searchGifs);
+query.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        e.preventDefault();
+        searchGifs();
+    }
+});
