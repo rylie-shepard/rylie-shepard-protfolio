@@ -16,8 +16,15 @@ style.css
 
 `*` for setting the base for the whole project to margin 0 and padding 0, added head styling, body styling, localixed styling to change background and text color and font and alignment, classified different sections to modify them fromn the base design of the page, and modified a bootstrap 5 carousel. 
 
-# If you're reading this, you lost the game.
+### If you're reading this, you lost the game.
 
 Also added Javascript for query selector.
 
 Further changes include a bit of cosmetic overhaul, addition of actual projects, more detail in the blog page, and a functioning contact page that will actually send me information.
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+# Project 02 Update
+
