@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.giphy-body {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+@media (max-width: 600px) {
+    .giphy-body {
+        flex-direction: column;
+    }
+}
+
+.giphy-search-box {
+    font-size: 1rem;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.giphy-search-button {
+    padding: 8px 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0; 
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.giphy-search-button:hover {
+    background-color: #e0e0e0;
+}

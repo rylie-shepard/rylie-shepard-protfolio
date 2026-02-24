@@ -1,0 +1,9 @@
+1- As a User, I want to be able to search for gifs via a search bar.
+	Success- Relevant gifs are shown as a result of the search.
+	Failure- Gifs are not displayed after submitting a request.
+2- As a User, I want to be shown a page that cleanly fits the device I am using to access the content.
+	Success- Displays for desktop and mobile users makes sense for the device being used.
+	Failure- The display for either desktop or mobile users doesn't make sense for the device used.
+3- As a User, I want the gifs I am searching for to be downloadable from the page.
+	Success- Displayed results are able to be saved/downloaded.
+	Failure- the gifs shown can't be saved or downloaded, or arent displayed on the site.
