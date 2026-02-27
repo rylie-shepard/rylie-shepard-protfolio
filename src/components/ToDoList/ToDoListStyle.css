@@ -1,0 +1,70 @@
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-form {
+    width: 400px;
+    height: 200px;
+    background-color: lightpink;
+    margin: 25px auto;
+    text-align: center;
+    padding: 1px 0 10px;
+}
+
+.task-form input {
+    margin-left: 15px;
+    padding: 6px;
+}
+
+.task-form button {
+    margin-top: 10px;
+    padding: 5px 25px;
+    box-shadow: 2px 2px 6px rgb(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.form-row {
+    margin: 8px auto;
+}
+
+.full-task {
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgb(0, 0, 0, 0.4);
+    margin: 20px;
+    padding: 10px;
+    background-color: lightpink;
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Makes the mouse icon an index pointer for clicking */
+    user-select: none; /* Prevents the user from selecting the text on the card */
+    position: relative;
+}
+
+.delete-task {
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 24px;
+    border: 3px solid black;
+    border-radius: 25%;
+    color: rgb(201, 2, 2);
+    width: 25px;
+    line-height: 25px;
+    
+}
+
+.delete-task:hover {
+    background-color: rgb(156, 135, 139);
+}
+
+.task-completed {
+    text-decoration: line-through;
+}
